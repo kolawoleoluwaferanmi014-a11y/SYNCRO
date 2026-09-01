@@ -96,7 +96,7 @@
     }
   },
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "typecheck": "tsc --noEmit",
     "watch": "tsc --watch",
     "test": "jest",
